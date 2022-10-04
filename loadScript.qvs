@@ -107,3 +107,9 @@ LOAD
     "Region Code"
 FROM [lib://DataFiles/Customers.xlsx]
 (ooxml, embedded labels, table is Sheet1);
+///$tab _gitoqlok
+/**
+** Last Updated at 10/4/2022, 9:43:47 AM: Merge pull request #1 from visu1219/Dev2_branch
+
+Dev2 branch (GitHub at 10/4/2022, 9:41:27 AM)
+*/
