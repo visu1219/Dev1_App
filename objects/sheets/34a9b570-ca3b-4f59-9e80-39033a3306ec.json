@@ -1,0 +1,483 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "34a9b570-ca3b-4f59-9e80-39033a3306ec",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Dev1_App_Demo",
+      "description": ""
+    },
+    "rank": 0,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 100,
+          "height": 100
+        },
+        "col": 0,
+        "colspan": 24,
+        "name": "PuJJnJ",
+        "row": 0,
+        "rowspan": 12,
+        "smartGrid": {
+          "rowIdx": 0,
+          "itemIdx": 0,
+          "item": {
+            "width": 1
+          }
+        },
+        "type": "auto-chart"
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "small",
+    "layoutOptions": {
+      "mobileLayout": "LIST",
+      "extendable": false
+    },
+    "gridMode": "simpleEdit"
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "PuJJnJ",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Sum(Sales)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "WXWMmUP",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Sum([Sales Qty])",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "WqaPjL",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "script": "",
+        "showTitles": true,
+        "title": "sales and sales qty",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": 1029961091,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum(Sales)",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "EYXeC",
+                    "numFormatFromTemplate": true,
+                    "measureAxis": {
+                      "min": 0,
+                      "max": 100
+                    },
+                    "conditionalColoring": {
+                      "useConditionalColoring": false,
+                      "singleColor": 3,
+                      "paletteSingleColor": {
+                        "index": 6
+                      },
+                      "segments": {
+                        "limits": [],
+                        "paletteColors": [
+                          {
+                            "index": 6
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                },
+                {
+                  "qDef": {
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum([Sales Qty])",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "mGrL",
+                    "numFormatFromTemplate": true,
+                    "measureAxis": {
+                      "min": 0,
+                      "max": 100
+                    },
+                    "conditionalColoring": {
+                      "useConditionalColoring": false,
+                      "singleColor": 3,
+                      "paletteSingleColor": {
+                        "index": 6
+                      },
+                      "segments": {
+                        "limits": [],
+                        "paletteColors": [
+                          {
+                            "index": 6
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0,
+                1
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 500,
+                  "qHeight": 10
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            },
+            "script": "",
+            "showTitles": true,
+            "title": "sales and sales qty",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "qStateName": "",
+            "components": [],
+            "showMeasureTitle": true,
+            "showSecondMeasureTitle": true,
+            "textAlign": "center",
+            "layoutBehavior": "responsive",
+            "fontSize": "M",
+            "useLink": false,
+            "sheetLink": "",
+            "openUrlInNewTab": true,
+            "qInfo": {
+              "qType": "kpi"
+            },
+            "visualization": "kpi",
+            "version": "0.9.0",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "recommendation": {
+              "options": {},
+              "analysis": {
+                "analysis": "fact",
+                "analysisGroup": "fact",
+                "titleTemplate": [],
+                "msrs": [
+                  {
+                    "expr": "=Sum([Sales])",
+                    "cType": "eField",
+                    "field": "Sales",
+                    "fieldStats": {
+                      "dataType": "double",
+                      "valueRange": {
+                        "min": 68593614.35999884,
+                        "max": 68593614.35999884
+                      },
+                      "classification": [
+                        "measure"
+                      ]
+                    }
+                  },
+                  {
+                    "expr": "=Sum([Sales Qty])",
+                    "cType": "eField",
+                    "field": "Sales Qty",
+                    "fieldStats": {
+                      "dataType": "double",
+                      "valueRange": {
+                        "min": 1281100.4000000001,
+                        "max": 1281100.4000000001
+                      },
+                      "classification": [
+                        "measure"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "isExtendedAnalysis": false,
+              "matchRecord": {
+                "analysisPrecedentId": "P-NMin-Msr-Aggr",
+                "matches": [
+                  {
+                    "slot": "$$1",
+                    "slotRole": "measure",
+                    "field": "Sales",
+                    "aggr": "Sum",
+                    "overallAggr": "Sum"
+                  },
+                  {
+                    "slot": "$$2",
+                    "slotRole": "measure",
+                    "field": "Sales Qty",
+                    "aggr": "Sum",
+                    "overallAggr": "Sum"
+                  }
+                ],
+                "precedentStats": {
+                  "matchedFields": 0,
+                  "uniquePrecedents": 0
+                }
+              },
+              "relevance": 1,
+              "analysisIntentRelevance": 0.09000000000000001
+            }
+          }
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}
